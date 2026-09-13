@@ -5,7 +5,7 @@ public Potion brewHeealingPotion(PotionBuilder builder) {
             .setBase("Purified Spring Water")
             .setIngredient("Red Herb")
             .setIngredient("Glowing Mushroom")
-            .setBrewingtime(15)
+            .setBrewingTime(15)
             .build();
 }
 public Potion brewManaPotion(PotionBuilder builder) {
@@ -14,7 +14,7 @@ public Potion brewManaPotion(PotionBuilder builder) {
             .setBase("Distilled Water")
             .setIngredient("Blue Lotus Leaf")
             .setIngredient("Crystal Dust")
-            .setBrewingtime(25)
+            .setBrewingTime(25)
             .build();
 }
 }

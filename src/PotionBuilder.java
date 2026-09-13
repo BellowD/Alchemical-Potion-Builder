@@ -6,7 +6,8 @@ public class PotionBuilder {
     private String name;
     private String base;
     private List<String> ingredients = new ArrayList<>();
-    private int brewingTime = 5;
+    private static final int DEFAULT_BREWING_TIME = 5;
+    private int brewingTime = DEFAULT_BREWING_TIME;
 
     public PotionBuilder setName(String name) {
         this.name = name;
@@ -34,7 +35,7 @@ public class PotionBuilder {
         this.name = null;
         this.base = null;
         this.ingredients.clear();
-        this.brewingTime = 5;
+        this.brewingTime = DEFAULT_BREWING_TIME;
         return this;
     }
 
