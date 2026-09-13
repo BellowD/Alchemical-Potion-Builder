@@ -17,9 +17,9 @@ Potion(String name, String base, List<String> ingredients, int brewingTime) {
 @Override
     public String toString() {
     return "Potion: " + name +
-            "Base: " + base +
-            "Ingredients: " + ingredients +
-            "Brewing time: " + brewingTime + "mins\n";
+            "\nBase: " + base +
+            "\nIngredients: " + ingredients +
+            "\nBrewing time: " + brewingTime + "mins\n";
 }
 
 }

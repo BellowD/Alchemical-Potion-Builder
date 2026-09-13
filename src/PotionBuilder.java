@@ -25,7 +25,7 @@ public class PotionBuilder {
         return this;
     }
 
-    public PotionBuilder setBrewingtime(int brewingTime) {
+    public PotionBuilder setBrewingTime(int brewingTime) {
         this.brewingTime = brewingTime;
         return this;
     }
